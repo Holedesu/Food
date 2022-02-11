@@ -1,8 +1,8 @@
 /* Setting */
 .body{
     font-family: Helvetica Neue, serif;
-    /*background: #1A1A1A url("../imgs/bowl.png") 50% 0 no-repeat;*/
-    background-image: url(../imgs/bowl.png);
+    /*background: #1A1A1A url("../img/bowl.png") 50% 0 no-repeat;*/
+    background-image: url(../img/bowl.png);
     background-repeat: no-repeat;
     background-color: #1A1A1A;
     background-position: top;
@@ -16,7 +16,7 @@
 
 /*.background_bowl{
     position: absolute;
-    background-image: url("../imgs/bowl.png"), linear-gradient(180deg, rgba(26, 26, 26, 0.0001) 0%,
+    background-image: url("../img/bowl.png"), linear-gradient(180deg, rgba(26, 26, 26, 0.0001) 0%,
     #1A1A1A 100%), linear-gradient(0deg, rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)), url(.jpg);
     height: 1080px;
     width: 1440px;
@@ -95,14 +95,16 @@
 /* Main */
 
 .favourite_food{
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .wrapper_food{
     width: 1100px;
     margin: 0 auto;
 }
-
+/* Text Title*/
 .title{
     display: flex;
     justify-content: center;
@@ -142,6 +144,7 @@
     opacity: 0.7;
 }
 
+/* Text Title end*/
 /* Order now button */
 
 .order_now{
@@ -167,3 +170,220 @@
 }
 
 /* Order now button end */
+/*  Time, Address, Phone */
+
+.time_address_phone{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 915px; /* can convert to vw */
+}
+
+.tap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    width: 245px;
+}
+
+.tap_image{
+    height: 26px;
+    width: 26px;
+}
+
+.tap_text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+.tap_opacity_text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-align: center;
+}
+/*  Time, Address, Phone end */
+/*  About block */
+
+.about{
+    background: #252525 url(../svg/about.svg) 50% 14.26% no-repeat;
+    height: 736px;
+    width: 1110px;
+    margin-top: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_text{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    color: #D9D9D9;
+    text-align: center;
+}
+
+.about_bottom_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #A6A6A6;
+    line-height: 30px;
+    margin-top: 55px;
+    margin-bottom: 90px;
+
+}
+
+.img_of_food_and_buttons{
+    width: 980px; /* can convert to vw */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.buttons{
+    height: 60px;
+}
+
+.food_imgs{
+    width: 734px; /* can convert to vw */
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_of_food{
+}
+
+/*  About block end */
+/*  Work block */
+
+.work{
+   height: 476px;
+    background: url(../svg/work.svg) 50% 18.9% no-repeat;
+    width: 1110px;
+
+}
+
+.work_title{
+    margin-top: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work_main_text{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.2em;
+    color: #D9D9D9;
+    margin-bottom: 58px;
+}
+
+.underline{
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+    margin-bottom: 60px;
+}
+
+.advantages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* green advantage*/
+.green_advantage{
+    background-color: #34C759;
+    width: 207px;
+    height: 158px;
+    border-radius: 4px;
+    padding: 24px;
+
+}
+
+.green_advantage_text{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    color: #191919;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.275px;
+}
+
+.green_advantage_underline{
+    width: 60px;
+    height: 2px;
+    background-color: #191919;
+    margin-top: 21px;
+    margin-bottom: 28px;
+}
+
+.green_advantage_bottom_text{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #191919;
+    letter-spacing: -0.1625px;
+}
+
+/* Grey Advantage */
+
+.grey_advantage{
+    background-color: #252525;
+    width: 207px;
+    height: 158px;
+    border-radius: 4px;
+    padding: 24px;
+
+}
+
+.grey_advantage_text{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.275px;
+}
+
+.grey_advantage_underline{
+    width: 60px;
+    height: 2px;
+    background-color: #34C759;
+    margin-top: 21px;
+    margin-bottom: 28px;
+}
+
+.grey_advantage_bottom_text{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);;
+    letter-spacing: -0.1625px;
+}
+
+/*  Work block end */
