@@ -1,0 +1,169 @@
+/* Setting */
+.body{
+    font-family: Helvetica Neue, serif;
+    /*background: #1A1A1A url("../imgs/bowl.png") 50% 0 no-repeat;*/
+    background-image: url(../imgs/bowl.png);
+    background-repeat: no-repeat;
+    background-color: #1A1A1A;
+    background-position: top;
+
+}
+.html{
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.0001) 0%,
+    #1A1A1A 100%), linear-gradient(0deg, rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5));
+}
+/* Background */
+
+/*.background_bowl{
+    position: absolute;
+    background-image: url("../imgs/bowl.png"), linear-gradient(180deg, rgba(26, 26, 26, 0.0001) 0%,
+    #1A1A1A 100%), linear-gradient(0deg, rgba(33, 33, 33, 0.5), rgba(33, 33, 33, 0.5)), url(.jpg);
+    height: 1080px;
+    width: 1440px;
+
+}
+
+/* header */
+
+.wrapper_header{
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+
+.healthy_switcher{
+    margin-bottom: 10px;
+}
+
+.text_logo{
+    color:#34C759;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 10px;
+
+}
+
+.header_menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu_list{
+    width: 303px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.menu_item{
+    list-style-type: none;
+}
+
+.menu_text_green{
+    color: #34C759;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* Line between Header & Main */
+
+.line{
+    height: 2px;
+    background-color: white;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+/* Main */
+
+.favourite_food{
+
+}
+
+.wrapper_food{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_text{
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 300;
+    font-size: 72px;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title_span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.bottom_title_text{
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+/* Order now button */
+
+.order_now{
+    height: 72px;
+    width: 220px;
+    border-radius: 43px;
+    background-color: #34C759;
+    color: #1A1A1A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+
+.order_now_button{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Order now button end */
