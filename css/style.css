@@ -874,6 +874,9 @@
     justify-content: center;
 }
 
+
+/* First Social Block */
+
 .first_social_block{
     background: #262626;
     width: 350px;
@@ -882,9 +885,12 @@
 }
 
 .upper_social{
-    height: 100px;
+    height: 50px;
     border-bottom: 2px #303030 solid ;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 25px 23px;
 }
 
 .social_logo{
@@ -902,6 +908,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 10px;
+    text-align: center;
 }
 
 .social_name{
@@ -917,4 +924,170 @@
     display: flex;
     align-items: center;
 }
+
+.lower_part{
+    padding: 20px 15px 25px 30px;
+}
+
+.social_date{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #737373;
+}
+
+.social_text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 20px 0 20px;
+}
+
+.twit_user{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #34C759;
+}
+
+.scroll{
+    width: 4px;
+    height: 92px;
+    border-radius: 100px;
+    background: #303030;
+}
+
+.lower_part{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Second Social Block */
+
+.second_social_block{
+    background: #262626;
+    width: 350px;
+    height: 330px;
+    border-radius: 6px;
+}
+
+.insta_grid{
+    display: grid;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 120px 115px 115px;
+}
+
+.instagram_food_border_left{
+    border-radius: 0 0 0 6px;
+}
+
+.instagram_food_border_right{
+    border-radius: 0 0 6px 0;
+}
+
+.upper_social_insta{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 25px 23px;
+}
+
+.insta_img_and_button{
+    background-image: url("../img/insta_food_2.png");
+    width: 115px;
+    height: 120px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_button_insta{
+    width: 40px;
+    height: 40px;
+    background-color: #34C759;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.insta_scroll{
+    background-image: url("../img/insta_food_3.png");
+    width: 106px;
+    height: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 9px;
+}
+
+.scroll_instagram{
+    width: 4px;
+    height: 92px;
+    border-radius: 100px;
+    background: white;
+    opacity: 0.5;
+
+}
+
+/* Third Social Block */
+
+.third_social_block{
+    background: #262626;
+    width: 350px;
+    height: 330px;
+    border-radius: 6px;
+}
+
+
+/* Social grid */
+
+.social_grid{
+    display: grid;
+    grid-template-columns: 31.5% 31.5% 31.5%;
+    grid-column-gap: 30px;
+    margin-bottom: 120px;
+}
+
 /* Social end */
+/* Footer */
+
+.footer{
+    background-color: #252525;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.upper_footer{
+    height: 155px;
+    border-bottom: 2px #303030 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo{
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    font-weight: 500;
+    font-size: 12px;
+    color: #737373;
+    line-height: 0;
+    margin-top: 20px;
+}
+
+.lower_footer{
+    height: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Footer end */
